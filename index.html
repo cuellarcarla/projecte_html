@@ -11,29 +11,31 @@
 <body><!--Abrimos el body que será toda la parte visible de nuestra pagina web, donde ira todo nuestro contenido-->
     <header><!--Abrimos la cabecera de nuestra pagina web-->
         <h1>Las galaxias más hermosas del universo</h1><!--Le ponemos un Título-->
-    </header>
+    </header><!--Cerramos la cabecera de nuestra pagina web-->
 
-    <nav>
-        <a href="#primera-seccion"> Vía Láctea </a>
-        <a href="#segunda-seccion"> Galaxia Andrómeda </a>
-        <a href="#tercera-seccion"> Galaxia del Molinete </a>
-        <a href="#cuarta-seccion"> Galaxia del Sombrero </a>
-    </nav>
+    <nav><!--Abrimos el nav que sera nuestro menu de navegación-->
+        <a href="#primera-seccion"> Vía Láctea </a><!--Creamos un enlace con <a> que nos llevara a cada sección que hayamos creado, en este caso se dirigira al apartado de Via lactea-->
+        <a href="#segunda-seccion"> Galaxia Andrómeda </a><!--Link para diriginos a la sección asignada con id por lo tanto ponemos #-->
+        <a href="#tercera-seccion"> Galaxia del Molinete </a><!--Link para diriginos a la sección asignada-->
+        <a href="#cuarta-seccion"> Galaxia del Sombrero </a><!--Link para diriginos a la sección asignada-->
+    </nav><!--Cerramos el nav que sera nuestro menu de navegación-->
 
-    <main>
-        <section id="primera-seccion">
-            <h2> Vía Láctea </h2>
+    <main><!--Abrimos main que sera donde ira nuestro contenido principal-->
+        <section id="primera-seccion"><!--Abrimos section para identificar una sección y tambien le asignamos una id única para la relacion con el link-->
+            <h2> Vía Láctea </h2><!--Subtitulos de nuestra pagina web-->
             <p>Nuestra <a href="https://es.wikipedia.org/wiki/Galaxia_de_Andrómeda" class="wikipedia" c>galaxia</a> -la segunda más grande del Grupo Local- posee una masa de 10^12 masas solares y, como ya sabemos, es una galaxia espiral barrada. Su diámetro medio se estima en unos 100.000 años luz y alberga entre 200.000 y 400.000 millones de estrellas. Desde el centro de la galaxia hasta nuestra estrella, el Sol, hay alrededor de 25.766 años luz.</p>
-            <img src="https://acortar.link/OQcelm">
-            <p class="creditos">Crédito imagen: NASA</p>
-        </section>
+            <!--usamos la etiqueta paragrafo para poner la informacion, tambien utilizamos la etiqueta de a para crear  un link en una palabra-->
+            <img src="https://acortar.link/OQcelm"><!--Añadimos una imagen a nuestra sección-->
+            <p class="creditos">Crédito imagen: NASA</p><!--otro paragrafo para los cretidos con una clase para dirigirlo al css donde añadiremos estilos-->
+        </section><!--Cerramos la primera sección-->
 
-        <section class="section2" id="segunda-seccion">
-            <h2> Galaxia Andrómeda </h2>
+        <section id="segunda-seccion"><!--Abrimos la segunda section que ser igual que la primera. Sirve para identificar una sección y tambien le asignamos una id única para la relacion con el link-->
+            <h2> Galaxia Andrómeda </h2><!--Subtitulos de nuestra pagina web-->
             <p> La galaxia de <a href="https://es.wikipedia.org/wiki/Galaxia_de_Andrómeda" class="wikipedia" c>Andrómeda</a> se encuentra a 2,537 millones de años luz de distancia de la Tierra en la constelación de Andrómeda. Su 'cercanía' con respecto a nuestro planeta, hace que sea el objeto visible a simple vista más lejano de la Tierra. Es la galaxia gigante más cercana y contiene aproximadamente el mismo número de estrellas que la Vía Láctea </p>
-            <img src="https://acortar.link/8tQ8ex">
-            <p class="creditos">Crédito imagen: NASA</p>
-        </section>
+            <!--Informacion en un paragrafo y asignamos una pagina web con un link en una palabra-->
+            <img src="https://acortar.link/8tQ8ex"><!--Añadimos otra imagen-->
+            <p class="creditos">Crédito imagen: NASA</p><!--Paragrafo para los creditos y una clase para luego añadirle un estilo al texto-->
+        </section><!--Cerramos la segunda sección-->
 
         <section id="tercera-seccion">
             <h2> Galaxia del Molinete </h2>
@@ -48,11 +50,11 @@
             <img src="https://acortar.link/OXVvWd">
             <p class="creditos">Crédito imagen: NASA</p>
         </section>
-    </main>
+    </main><!--Cerramos nuestro contenido principal-->
 
-    <footer>
-        <p> @ 2023 GALAXIAS </p>
-    </footer>
+    <footer><!--Abrimos nuestro pie de página-->
+        <p> @ 2023 GALAXIAS </p><!--podemos informacion de la pagina web o los creditos-->
+    </footer><!--Cerramos el pie de página-->
 
-</body>
-</html>
+</body><!--Para terminar nuestra pagina web cerramos el body, todo el contenido-->
+</html><!--Cerramos nuestro documento HTML-->
