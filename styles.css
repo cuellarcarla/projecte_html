@@ -1,9 +1,16 @@
+/*Estamos identidicando el cuerpo(body) de la página web.
+Estableciendo un margin y padding a 0 para eliminar el espaciado predetermino.
+Tambien podemos un fondo se color
+*/
 body{
     background-color: black;
     margin: 0px;
     padding: 0px;
 }
-
+/*
+Estamos identificado la cabecera de nuestra pagina web.
+Establecemos un fondo de color, una posción fija para que no se mueva pase lo que pase, un ancho, el texto en el centro y un tipo de letra 
+*/
 header{
     background-color: red;
     position: fixed;
@@ -12,7 +19,12 @@ header{
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
+/*
+Estamos identificando el menu de página
+Establecemos un fondo de color, el texto en el centro, una posción stucky que quiere decir que se mueve, el ancho,
+un margin top para ponermo debajo del menu de navegación,un paddig top para modificar la posicion del texto, un height para la altura del menu
+y finalmente un display para modificar el comportamiento de un elemento en este caso el menu
+*/
 nav{
     background-color:  black;
     text-align: center;
@@ -23,7 +35,11 @@ nav{
     height: 40px;
     display: inline-block;
 }
-
+/*
+Estamos identificado los link y su respectivo texto
+Establecemos el tamaño de la letra, el tipo de letra, que este en el centro, que el texto sea de color blanco,como tiene un link queremos que 
+no aparezca lo subrayado donde ponemos no decoration y finalmente un padding para la distacion entre elementos
+*/
 nav a{
     font-size: 15px;
     text-align: center;
@@ -32,13 +48,23 @@ nav a{
     text-decoration: none;
     padding:0px 30px;
 }
-
+/*
+Estamos identificacion el contenido principal
+Establecemos un padding que es la cantidad de espacio entre el borde y el contenido del elemento. Se puede poner una longitud o un porcentaje.
+El padding-top es para mover el espacio de arriba y el bottom para el espacio de abajo.
+*/
 main{
     padding: 5%;
     padding-top: 1px;
     padding-bottom: 1px;
 }
-
+/*
+Estamos identificando las secciones
+Establecemos una imagen de fondo en lugar de un color, con una direccion de imagen de google.
+Establecemos para que la imagen no salga como mosaico con el atributo no repeat.
+Luego para que el tamaño de la imagen sea todo la seccion.
+Añadimos un tipo de letra y un color.
+*/
 section{
     background-image: url(https://acortar.link/wqmaxi);
     background-repeat: no-repeat;
@@ -46,25 +72,40 @@ section{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
 }
-
+/*
+Estamos identificado el clase wikipedia para que la letra salga de color blanco y no la predeterminada cuando poner un link
+*/
 .wikipedia{
     color: white;
 }
-
+/*
+Estamoms identificando la clase de creditos para que nos salga en forma cursiva.
+*/
 .creditos{
     font-style: italic;
 }
-
+/*
+Estamos identificando las imagenes
+Establecemos un display block que es un elemento que ocupará todo el espacio disponible por defecto y el siguiente elemento a este se situará por debajo
+Establecemos el ancho de la imagen y el margin automatico para que los márgenes izquierdo y derecho sean iguales.
+*/
 img {
     display: block;
     width: 50%;
     margin: auto;
 }
-
+/*
+Estamos identificando los subtitulos.
+Donde decimos que haya un espacio arriba entre el borde y el texto(elemento)
+*/
 section h2{
     padding-top: 50px;
 }
-
+/*
+Estamos identificando el pie de página
+Donde decimos que el ancho sea todo, el tipo de letra, el texto central, la letra de color blanco y finalmente una distancia entre el borde y el elemento
+de arriba y abajo.
+*/
 footer{
     width: 100%;
     font-size: 15px;
