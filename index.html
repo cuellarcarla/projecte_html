@@ -1,47 +1,48 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es"><!--Le ponemos el idioma español-->
 
-<head>
-    <meta charset="UTF-8">
-    <title>Galaxias</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-</head>
+<head><!--Abrimos el encabezado de nuestra página web, que será la parte no visible de la página web-->
+    <meta charset="UTF-8"><!--Nos aseguramos que nuestra página web utiliza la codificación correcta para que nos ayude a evitar problemas de visualización y mejorar la accesibilidad.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Para ajustar el tamaño de  nuestra pagina web en otros dispotisivos.-->
+    <link rel="stylesheet" href="styles.css"><!--Enlazamos este HTML a su CSS-->
+    <title>Galaxias</title><!--Le ponemos título en nuestra pagina web-->
+</head><!--Cerrarmos el encabezado-->
 
-<body>
-    <header>
-        <h1>Las galaxias más hermosas del universo</h1>
+<body><!--Abrimos el body que será toda la parte visible de nuestra pagina web, donde ira todo nuestro contenido-->
+    <header><!--Abrimos la cabecera de nuestra pagina web-->
+        <h1>Las galaxias más hermosas del universo</h1><!--Le ponemos un Título-->
     </header>
 
     <nav>
-        <a href="otra_pagina.html"> INICIO </a>
-        <a href="otra_pagina.html"> CONTACTO </a>
-        <a href="otra_pagina.html"> NOSOTROS </a>
+        <a href="#primera-seccion"> Vía Láctea </a>
+        <a href="#segunda-seccion"> Galaxia Andrómeda </a>
+        <a href="#tercera-seccion"> Galaxia del Molinete </a>
+        <a href="#cuarta-seccion"> Galaxia del Sombrero </a>
     </nav>
 
     <main>
-        <section>
+        <section id="primera-seccion">
             <h2> Vía Láctea </h2>
             <p>Nuestra <a href="https://es.wikipedia.org/wiki/Galaxia_de_Andrómeda" class="wikipedia" c>galaxia</a> -la segunda más grande del Grupo Local- posee una masa de 10^12 masas solares y, como ya sabemos, es una galaxia espiral barrada. Su diámetro medio se estima en unos 100.000 años luz y alberga entre 200.000 y 400.000 millones de estrellas. Desde el centro de la galaxia hasta nuestra estrella, el Sol, hay alrededor de 25.766 años luz.</p>
             <img src="https://acortar.link/OQcelm">
             <p class="creditos">Crédito imagen: NASA</p>
         </section>
 
-        <section class="section2">
-            <h2> Galaxia Andrómeda</h2>
+        <section class="section2" id="segunda-seccion">
+            <h2> Galaxia Andrómeda </h2>
             <p> La galaxia de <a href="https://es.wikipedia.org/wiki/Galaxia_de_Andrómeda" class="wikipedia" c>Andrómeda</a> se encuentra a 2,537 millones de años luz de distancia de la Tierra en la constelación de Andrómeda. Su 'cercanía' con respecto a nuestro planeta, hace que sea el objeto visible a simple vista más lejano de la Tierra. Es la galaxia gigante más cercana y contiene aproximadamente el mismo número de estrellas que la Vía Láctea </p>
             <img src="https://acortar.link/8tQ8ex">
             <p class="creditos">Crédito imagen: NASA</p>
         </section>
 
-        <section>
+        <section id="tercera-seccion">
             <h2> Galaxia del Molinete </h2>
             <p> La galaxia del <a href="https://es.wikipedia.org/wiki/Galaxia_espiral_M101" class="wikipedia">Molinete</a> a 25 millones de años luz de distancia de la Tierra en la constelación de la Osa Mayor, la galaxia del Molinete o NGC 5457, es una de las mayores galaxias existentes en nuestro vecindario de la Vía Láctea (tiene más del doble de diámetro que nuestra galaxia). Una de sus curiosidades, es que parece no tener un agujero negro en su centro.  </p>
             <img src="https://acortar.link/9K9Wle">
             <p class="creditos">Crédito imagen: NASA</p>
         </section>
 
-        <section>
+        <section id="cuarta-seccion">
             <h2> Galaxia del Sombrero </h2>
             <p> La galaxia del <a href="https://es.wikipedia.org/wiki/Galaxia_del_Sombrero" class="wikipedia">Sombrero</a> se encuentra a unos 28 millones de años luz de distancia de la Tierra en la constelación de Virgo. Los motivos por los que esta galaxia parece un sombrero son: el abultamiento central de estrellas inusualmente grande, y las oscuras y prominentes líneas de polvo que aparecen en un disco que vemos casi de canto. Ese brillo difuso del bulbo central se debe también a miles de millones de estrellas antiguas. </p>
             <img src="https://acortar.link/OXVvWd">
@@ -50,7 +51,7 @@
     </main>
 
     <footer>
-        <p> @ 2023 My Website </p>
+        <p> @ 2023 GALAXIAS </p>
     </footer>
 
 </body>
